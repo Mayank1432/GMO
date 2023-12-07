@@ -33,7 +33,7 @@ const MainData = () => {
         alert("Please Enter your Credentials to Access the Data")
         return navigate("/")
      }
-  },[])
+  },[navigate, userDataString])
 
   return (
     <Box sx={styles.MainBody}>

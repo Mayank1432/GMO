@@ -35,7 +35,7 @@ const Navbar = () => {
           <Link component={RouterLink} to="/" sx={styles.navItem}>
             Login
           </Link>
-          <Link component={RouterLink} to="/data" sx={styles.navItem}>
+          <Link component={RouterLink} to="/blog" sx={styles.navItem}>
             Blog
           </Link>
 

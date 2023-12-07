@@ -1,4 +1,3 @@
- 
 import { useState } from "react";
 import {  useNavigate } from "react-router-dom";
 import { Button, TextField } from "@mui/material";
@@ -17,7 +16,7 @@ const UserInfoForm = () => {
       alert("Login Successful !")
 
       setTimeout(() => {
-        navigate("/data");
+        navigate("/blog");
       }, 3000);
     }
   };

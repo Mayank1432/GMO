@@ -1,6 +1,6 @@
 import Sidebar from "../components/Sidebar";
 import {  Box } from "@mui/material";
-import PostsData from "../components/PostsData";
+import Blogpost from "../components/Blogposts";
 import {  useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 const styles = {
@@ -32,14 +32,13 @@ const MainData = () => {
     if (!userDataString) {
         alert("Please Enter your Credentials to Access the Data")
         return navigate("/")
-     }  
+     }
   },[])
-  
 
   return (
     <Box sx={styles.MainBody}>
       <Sidebar />
-      <PostsData />
+      <Blogpost />
     </Box>
   );
 };
